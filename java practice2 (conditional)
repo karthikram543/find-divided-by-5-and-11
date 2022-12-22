@@ -1,0 +1,39 @@
+public class days{
+	 public static void main (String[]args) {
+		 child obj = new child();
+		 obj.days(5);
+		 
+	 }
+	public void  days (int days) {
+		if (days == 1) {
+			System.out.println("Sunday ");
+		}
+		if (days == 2) {
+			System.out.println("Monday");
+		}
+		if (days == 3) {
+			System.out.println("Tuesday");
+		}
+		if (days == 4) {
+			System.out.println("Wednesday");
+		}
+		if (days == 5) {
+			System.out.println("Thursday");
+		}
+		if (days == 6) {
+			System.out.println("Friday");
+		}
+		if (days == 7) {
+			System.out.println("Saturday");
+		}
+		
+		
+	}
+	 
+	 
+ }
+ 
+ 
+ 
+ Output:
+    Thursday
